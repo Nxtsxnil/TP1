@@ -1,0 +1,105 @@
+body {
+    background-image: linear-gradient(#412841, #444);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1105px;
+}
+
+table {
+    background-color: white;
+    width: 60%;
+    height: 80%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+tr,
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+    font-size: small;
+}
+
+th {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: medium;
+}
+
+.affichefilm {
+    width: 100%;
+    float: left;
+}
+
+.Distribution {
+    width: 65%;
+    height: 25px;
+}
+
+.acteurs {
+    width: 65%;
+    font-size: medium;
+    list-style: none;
+    margin: 10;
+}
+
+.films {
+    height: 25px;
+}
+
+.sources {
+    float: left;
+    height: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.lisources {
+    float: left;
+}
+
+.personnage {
+    font-size: smaller;
+    color: #444;
+}
+
+span {
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+#Thomas {
+    background-image: url('../images/a1.jpg');
+}
+
+#Teresa {
+    background-image: url('../images/a2.jpeg');
+}
+
+#Gally {
+    background-image: url('../images/a3.webp');
+}
+
+#Newt {
+    background-image: url('../images/a4.webp');
+}
+
+#Minho {
+    background-image: url('../images/a5.webp');
+}
+
+#Ava {
+    background-image: url('../images/a6.webp');
+}
+
+#Alby {
+    background-image: url('../images/a7.webp');
+}
